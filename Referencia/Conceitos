@@ -1,0 +1,53 @@
+Referências
+
+	Guia de referência mozilla - developer.mozilla.org
+	Guia de referência ECMA - https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
+
+Geral
+
+	Tipagem dinâmica (untyped) // aceita alterações de tipo
+
+		let l1 = 500;
+		l1 = 'vitor';
+		l1 = true;
+
+	Multiparadigma // varias formas de resolver o mesmo problema
+
+	Linguagem interpretada (não compilada)
+
+NodeJS
+
+	É um motor de interpretação / ambiente de execução(runtime) de JS fora do navegador
+	Permite utilizar o JS para outros tipos de atividade que vão além de dar comportamento às paginas do navegador (API's, IOT, webscrapping, chatbots ...)
+	Utilizado para o back-end do desenvolvimento web, principalmente
+	Utilizado no front-end na relação com API's
+
+	package.json -> contem lista de dependencias do pacote, bibliotecas
+
+	npm, yarn -> repositórios de códigos voltados para o nodejs (npm vem instalado junto com o node)
+
+JSON
+
+	JSON é um acrônimo de JavaScript Object Notation ou “notação de objeto JavaScript”.
+
+	JSON.parse(): converte JSON para um objeto JavaScript;
+	JSON.stringify(): converte um objeto JavaScript para o formato JSON.
+
+
+DOM
+
+	ponte entre o JS e o HTML
+
+	document -> nos dá acesso ao código da página no console do navegador
+
+Boas Práticas
+
+	tag <script></script> no final do body, pois o código é executado em ordem.
+
+	buscar no querySelector pela classe ou id, não pela tag.
+
+	separar html, css e js.
+
+	camelCase, snake_case, PascalCase.
+
+	Dar preferência a conversões explicitas.
