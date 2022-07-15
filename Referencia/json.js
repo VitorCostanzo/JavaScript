@@ -13,7 +13,7 @@ const aluno = {
         },
         {
             cor:'cinza',
-            tamamnho: 'grande',
+            tamanho: 'grande',
             bolsos: 5
         }
     ],
